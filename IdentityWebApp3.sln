@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29020.237
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdentityWebApp3", "IdentityWebApp3\IdentityWebApp3.csproj", "{F507F49B-954C-493E-A21B-1D4D61FB0FEE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F507F49B-954C-493E-A21B-1D4D61FB0FEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F507F49B-954C-493E-A21B-1D4D61FB0FEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F507F49B-954C-493E-A21B-1D4D61FB0FEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F507F49B-954C-493E-A21B-1D4D61FB0FEE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {01457175-74EF-40AE-B121-74BD0AB1DCE4}
+	EndGlobalSection
+EndGlobal

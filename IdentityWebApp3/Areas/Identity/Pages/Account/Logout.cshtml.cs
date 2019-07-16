@@ -36,7 +36,8 @@ namespace IdentityWebApp3.Areas.Identity.Pages.Account
             }
             else
             {
-                return Page();
+                return LocalRedirect("/");
+                //return Page();
             }
         }
     }

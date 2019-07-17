@@ -7,10 +7,12 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
 using IdentityWebApp3.Data;
 using IdentityWebApp3.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 
 namespace IdentityWebApp3.Pages
 {
+    [Authorize(Policy = "RequireAdminRole")]
     public class AdminModel : PageModel
     {
         private readonly IdentityWebApp3.Data.ApplicationDbContext _context;

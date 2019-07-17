@@ -50,7 +50,8 @@ namespace IdentityWebApp3
             {
                 options.AddPolicy("RequireAdminRole", policy => policy.RequireRole("Admin"));
             });
-            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+            services.AddMvc()
+                .AddRazorPagesOptions(options => { options.Conventions.AuthorizePage("/Admin"); });
 
             services.AddSwaggerGen(c =>
             {

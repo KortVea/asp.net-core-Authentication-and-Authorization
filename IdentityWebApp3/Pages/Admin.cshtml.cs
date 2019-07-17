@@ -20,7 +20,7 @@ namespace IdentityWebApp3.Pages
             _context = context;
         }
 
-        public List<IdentityUser> Users { get; set; }
+        public List<ApplicationUser> Users { get; set; }
 
         public async Task<IActionResult> OnGetAsync()
         {

@@ -42,7 +42,7 @@ namespace IdentityWebApp3
                 options.UseSqlServer(
                     Configuration.GetConnectionString("DefaultConnection")));
             services
-                .AddIdentity<IdentityUser, IdentityRole>()
+                .AddIdentity<ApplicationUser, IdentityRole>()
                 .AddDefaultUI(UIFramework.Bootstrap4)
                 .AddEntityFrameworkStores<ApplicationDbContext>()
                 .AddDefaultTokenProviders();
